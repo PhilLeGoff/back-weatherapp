@@ -8,6 +8,8 @@ require('./models/connection');
 var indexRouter = require('./routes/index');
 var weatherRouter = require('./routes/weather');
 
+console.log("in the app")
+
 var app = express();
 
 const cors = require('cors');
